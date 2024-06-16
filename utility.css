@@ -1,0 +1,50 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+body {background: #000000;}
+
+html {
+    scrollbar-face-color: #646464;
+    scrollbar-base-color: #646464;
+    scrollbar-3dlight-color: #646464;
+    scrollbar-highlight-color: #646464;
+    scrollbar-track-color: #000;
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #646464;
+    /* scrollbar-dark-shadow-color: #646464; */
+  }
+  
+  ::-webkit-scrollbar { width: 8px; height: 3px;}
+  ::-webkit-scrollbar-track {  background-color: #646464;}
+  ::-webkit-scrollbar-track-piece { background-color: #000000;}
+  ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+  ::-webkit-scrollbar-corner { background-color: #646464;}
+  ::-webkit-resizer { background-color: #666;}
+  
+  
